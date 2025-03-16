@@ -169,11 +169,11 @@ productCatalogService:
   extraLatency: ""
   resources:
     requests:
-      cpu: 40m
-      memory: 90Mi
+      cpu: 4m
+      memory: 9Mi
     limits:
-      cpu: 40m
-      memory: 90Mi
+      cpu: 4m
+      memory: 9Mi
 
 recommendationService:
   create: true
