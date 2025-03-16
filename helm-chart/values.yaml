@@ -64,11 +64,11 @@ adService:
   name: adservice
   resources:
     requests:
-      cpu: 60m
-      memory: 60Mi
+      cpu: 70m
+      memory: 70Mi
     limits:
-      cpu: 60m
-      memory: 60Mi
+      cpu: 70m
+      memory: 70Mi
 
 cartService:
   create: true
