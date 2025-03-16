@@ -156,7 +156,7 @@ metadata:
   name: {{ .Values.frontend.name }}-external
   namespace: {{ .Release.Namespace }}
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: {{ .Values.frontend.name }}
   ports:
