@@ -65,10 +65,10 @@ adService:
   resources:
     requests:
       cpu: 5m
-      memory: 5Mi
+      memory: 10Mi
     limits:
       cpu: 5m
-      memory: 5Mi
+      memory: 10Mi
 
 cartService:
   create: true
