@@ -192,10 +192,10 @@ shippingService:
   resources:
     requests:
       cpu: 1m
-      memory: 64Mi
+      memory: 6Mi
     limits:
       cpu: 2m
-      memory: 128Mi
+      memory: 6Mi
 
 cartDatabase:
   # Specifies the type of the cartservice's database, could be either redis or spanner.
