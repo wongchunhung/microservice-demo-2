@@ -68,7 +68,7 @@ adService:
       memory: 38Mi
     limits:
       cpu: 30m
-      memory: 30Mi
+      memory: 38Mi
 
 cartService:
   create: true
