@@ -64,8 +64,8 @@ adService:
   name: adservice
   resources:
     requests:
-      cpu: 20m
-      memory: 18Mi
+      cpu: 30m
+      memory: 38Mi
     limits:
       cpu: 30m
       memory: 30Mi
